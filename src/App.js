@@ -1,6 +1,6 @@
 import './App.css';
 import Image from "./assets/download.jpg";
-import Demo from './components/demo';
+import Demo from './components/Demo';
 
 function App() {
   var x=10;
@@ -18,7 +18,7 @@ function App() {
      <img src={Image} alt="pic"/>
      <h2> {text} </h2>
      <h3>{x>=10 ? "greater than or equal to 10" : "not equal to 10"}</h3>
-    <Demo />
+    <Demo para = {text}/>
     </div>
   );
 }
