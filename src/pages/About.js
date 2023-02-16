@@ -1,8 +1,10 @@
 import React from "react";
+import NavigationBar from "../components/NavigationBar";
 
-const about = () => {
+const About = () => {
     return(
         <div>
+            <NavigationBar />
             <h1>About page Component</h1>
         </div>
     );
