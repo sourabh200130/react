@@ -20,10 +20,13 @@ const handlePasswordChange = (event) =>{
         console.log("password not matched");
     }
 }
+const handleSubmit = (event) => {
+    event.preventDefault();
+}
     return  <div> 
         <Demo2 para2={props.para}/>
         Demo Component
-        <form>
+        <form onSubmit={handleSubmit}>
             <label>Name :</label>
             <input type="text" name="name" onChange={handleNameChange}/>
             <label> Password :</label>
