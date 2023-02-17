@@ -16,7 +16,7 @@ const Name = () => {
     return(
         <div>
             <h1>{isData}</h1>
-            <button on onClick={handleChange}>change</button>
+            <button onClick={handleChange}>chage</button>
             <NavigationBar />
             <h1 style={{color: "white", backgroundColor: "black"}}>Home page Component</h1>
             <h1 style={myStyle}>jbcsai</h1>
